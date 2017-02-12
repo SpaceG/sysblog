@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /sysblog
+exclude: ['README.md']

@@ -2,13 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>This will be our SysAdminCat Blog</title>
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/stylesheet.css">
+	<title> {% if page.title %}{{page.title}} | {% endif %} This will be our SysAdminCat Blog {% if page.titleAfter %}{{page.titleAfter}} | {% endif%}</title>
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/sysadmincat.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name="description" content="{{page.meta}}">
 </head>
 <body>
 
-<header>
+<header class="masterhead {{page.masterheadClass}}">
 {% include nav.html navclass="nav-space-top" %}
 </header>
 

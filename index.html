@@ -1,6 +1,20 @@
 ---
 layout: default
+masterheadClass: masterhead-sysadmincat
+titleAfter: THIS IS CLEAR A TITLE
+meta: YouTube Tutorials, SysAdminCat, YouTube Tutorials
+priority: 1.0
 ---
+
+
+<ul>
+	{% for sysadmin in site.categories.sysadmin limit: 3 %}
+	<li><a href="">{{sysadmin.title}}</a></li>
+	<p>{{sysadmin.meta}}</p>
+	{% endfor %}
+</ul>
+
+
 
 <h1>Hello World!</h1>
 <p>This will be our YouTube Tutorial SysAdminCat Blog!</p>

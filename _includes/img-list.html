@@ -1,0 +1,14 @@
+<ul>
+	{% for tutorials in site.pages %}
+		{% if tutorials.type == include.type %}
+		<li>
+		<img src="{{tutorials.image}}">
+
+			{{tutorials.title}}
+				<p>{{tutorials.meta}}</p>
+
+		</li>
+
+		{% endif%}
+		{% enfor %}
+</ul>

@@ -1,0 +1,29 @@
+---
+layout: archive
+title: Archive Page
+priority: 1.0
+---
+
+
+<h1>This will be our Jekyll Archive</h1>
+<p>Links are below: </p>
+
+
+
+<ul>
+	{% for sysadmin in site.categories.sysadmin limit: 3 %}
+	<li><a href="">{{sysadmin.title}}</a></li>
+	<p>{{sysadmin.meta}}</p>
+	{% endfor %}
+</ul>
+
+
+
+<ul>
+	{% for tutorials in site.categories.tutorials limit:3 %}
+	<li><a href="">{{tutorials.title}}</a></li>
+	<p>{{tutorials.meta}}</p>
+	{% endfor %}
+</ul>
+
+

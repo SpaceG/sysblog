@@ -1,5 +1,6 @@
 /* Theme for our SysAdminCat Blog on YouTube 
 Date : 12. February 
+cssfile: main sysadmincat stylesheet;
 */
 
 body, html {
@@ -7,14 +8,4 @@ body, html {
 	margin: 0 auto;
 	padding: 0 auto;
 }
-.space {
-	background: pink;
-}
-.nav-space-top {
 
-	font-size:33px;
-}
-.nav-space-bottom {
-
-	font-size: 13px;
-}

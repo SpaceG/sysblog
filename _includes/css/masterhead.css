@@ -1,0 +1,20 @@
+/* Theme for our SysAdminCat Blog on YouTube 
+Date : 12. February 
+cssfile: masterhead
+*/
+
+.masterhead {
+	background: url("../img/sysadmincat.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	padding: 0 auto;
+	color:white;
+}
+.masterhead-sysadmincat {
+	background: url("../img/2.png");
+	background-size: cover;
+	margin: 0 auto;
+	padding: 0 auto;
+	color:white;
+}
+

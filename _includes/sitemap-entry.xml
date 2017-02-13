@@ -1,0 +1,9 @@
+<url>
+	<loc>http://127.0.0.1:4000{{site.baseurl}}{{include.entry.url}}</loc>
+	{% if include.entry.changefreq %}
+	<changefreq>{{include.entry.changefreq}}</changefreq>
+	{% endif %}
+	{% if include.entry.priority %}
+	<priority>{{include.entry.priority}}</priority>
+	{% endif %}
+</url>

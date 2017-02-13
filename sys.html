@@ -1,6 +1,17 @@
 ---
-layout: default
+layout: archive
+title: Tutorials
+changefreq: weekly
+priority: 1.0
 ---
+
+<ul>
+	{% for tutorials in site.categories.tutorials limit:3 %}
+	<img src="{{site.baseurl}}/img/{{tutorials.image}}">
+	<li><a href="{{site.baseurl}}{{tutorials.url}}">{{tutorials.title}}</a></li>
+	<p>{{tutorials.meta}}</p>
+	{% endfor %}
+</ul>
 
 
 <h1>This will be the Tutorial Site</h1>

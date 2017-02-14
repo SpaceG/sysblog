@@ -9,3 +9,13 @@ body, html {
 	padding: 0 auto;
 }
 
+.content {
+	max-width: 900px;
+	margin: 0 auto ;
+	padding: 0;
+	
+}
+footer {
+    margin: 0 auto;
+    max-width: 900px;
+}

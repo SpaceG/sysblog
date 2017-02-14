@@ -1,0 +1,30 @@
+---
+layout: archive
+---
+{% assign organiser = site.data.organisers.[page.organiser] %}
+
+
+<div class="content">
+<h1>{{page.title}}</h1>
+{{content}}
+<div class="author-box">
+	{% if organiser.photo %}
+		<img src="{{organiser.photo}}" alt="" class="sysadmincat-avatar"/>
+	{% endif %}
+	{% if organiser.photo %}
+		<h4 class="sysadmincat-author-title">About <a href="">{{organiser.name}}</a></h4>
+	{% endif %}
+<p class="sysadmincat-description">{{site.description}}</p>
+	<p class="sysadmincat-desc-link">
+		<span class="sysadmincat-location">{{organiser.country}}</span>
+		<span class="sysadmincat-website">{{organiser.website}}</span>
+		<span class="sysadmincat-email">{{organiser.email}}</span>
+		<span class="sysadmincat-email">{{organiser.name}}</span>
+		<span class="sysadmincat-email">{{organiser.youtube}}</span>
+	</p>
+</div>
+</div>
+
+<footer>
+	<p> Source: <a href="{{page.source}}">{{page.source}}</a></p>
+</footer>

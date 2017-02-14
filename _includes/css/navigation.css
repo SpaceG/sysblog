@@ -6,10 +6,20 @@ cssfile: navigation
 .space {
 	background: pink;
 }
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+}
 .nav-space-top {
 	font-size:33px;
+	margin: 0 auto;
 }
 .nav-space-bottom {
 	font-size: 13px;
 }
-
+.nav-space-top li {
+ display: -webkit-inline-box;
+}
+.nav-space-top li a {
+color:white;
+}

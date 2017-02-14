@@ -6,15 +6,16 @@ cssfile: masterhead
 .masterhead {
 	background: url("../img/sysadmincat.jpg");
 	background-size: cover;
-	margin: 0 auto;
-	padding: 0 auto;
+	/*margin: 0 auto;
+	padding: 0 auto;*/
 	color:white;
+	height: 150px;
 }
 .masterhead-sysadmincat {
 	background: url("../img/2.png");
 	background-size: cover;
-	margin: 0 auto;
-	padding: 0 auto;
+	/*margin: 0 auto;
+	padding: 0 auto;*/
 	color:white;
 }
 

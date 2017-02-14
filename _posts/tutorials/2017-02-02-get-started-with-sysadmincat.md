@@ -6,6 +6,7 @@ source: http://127.0.0.1:4000/tutorials/2017/02/02/get-started-with-sysadmincat.
 category: tutorials
 image: 2.png
 name: sysadmincat
+organiser: "Lucas Gatsas"
 ---
 
 

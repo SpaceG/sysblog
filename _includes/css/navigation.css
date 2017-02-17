@@ -3,23 +3,62 @@ Date : 12. February
 cssfile: navigation
 */
 
-.space {
+/*.space {
 	background: pink;
+}*/
+
+
+/* Header Logo in the Top of the Navigation */ 
+.header-navigation {
+    padding-right: 15px;
+    margin-top: -8px;
+  /* background: url("../img/green_cat_icon_small.png");*/
 }
+img.sysadmincat-logo {
+    width: 40px;
+}
+/* Navigation One */ 
+.sysadmincat-nav-one {
+ width: 100%;
+ position: fixed;
+ background:#17171b;
+ height:50px;
+}
+/*
 nav {
     max-width: 900px;
     margin: 0 auto;
 }
+*/
 .nav-space-top {
-	font-size:33px;
 	margin: 0 auto;
-}
-.nav-space-bottom {
-	font-size: 13px;
+	padding: 12px;
+	display: -webkit-inline-box;
 }
 .nav-space-top li {
  display: -webkit-inline-box;
 }
 .nav-space-top li a {
-color:white;
+color:#cccccc;
+padding-right: 5px;
+text-underline-position: none;
+text-decoration: none;
 }
+
+/* Navigation Two */
+
+.nav-space-bottom {
+	display: -webkit-inline-box;
+	font-size: 13px;
+	padding-right: 10px;
+	list-style:none;
+}
+
+ul.nav.nav-space-bottom a {
+    color: white;
+    padding:10px;
+    list-style:none;
+}
+
+
+

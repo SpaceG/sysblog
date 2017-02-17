@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">
+	var host = "sysadmincatblog.github.io";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+</script>
+
+	<link rel="canonical" href="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
+	
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> {% if page.title %}{{page.title}} | {% endif %} This will be our SysAdminCat Blog {% if page.titleAfter %}{{page.titleAfter}} | {% endif%}</title>
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/sysadmincat.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="description" content="{{page.meta}}">
 </head>
 <body>
 
+{% include nav-top.html navclass="nav-space-top" %}
 <header class="masterhead {{page.masterheadClass}}">
-{% include nav.html navclass="nav-space-top" %}
 </header>
 
 {{content}}
 
 <footer>
-{% include nav.html navclass="nav-space-bottom" %}
+{% include nav-bottom.html navclass="nav-space-bottom" %}
 	<p>©.2017 by SysAdminCat</p>
 </footer>
 

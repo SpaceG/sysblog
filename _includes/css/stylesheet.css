@@ -8,6 +8,23 @@ body, html {
 	margin: 0 auto;
 	padding: 0 auto;
 }
+a {
+	color:black;
+}
+a:hover {
+	color: #666;
+}
+li, ul {
+    list-style: none;
+}
+ul.sysadmincat-list-posts {
+ margin: 0 auto;
+    padding: 0;
+
+}
+.img-respon {
+	width:100%;
+}
 
 .content {
 	max-width: 900px;
@@ -17,5 +34,138 @@ body, html {
 }
 footer {
     margin: 0 auto;
-    max-width: 900px;
+    /*max-width: 900px;*/
+    background:#080808;
+    color:white;
 }
+footer p {
+	text-align: center;
+	padding:20px;
+	margin:0;
+}
+/* Video Container */
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/* Author Box in the Single Posts */
+.author-box {
+    border: 0px solid #111;
+    margin-bottom: 60px;
+    min-height: 85px;
+    padding: 30px;
+    position: relative;
+}
+.author-box .sysadmincat-avatar {
+    border-radius: 50%;
+    height: 85px;
+    left: 30px;
+    position: absolute;
+    top: 30px;
+    width: 85px;
+}
+.author-box .sysadmincat-author-title, .sysadmincat-description, .sysadmincat-desc-link {
+    margin-left: 115px;
+}
+
+
+/* Paginations */
+ul.pager {
+    padding: 40px;
+}
+li.previous {
+    float: left;
+}
+
+li.next {
+    float: right;
+}
+
+/* Media Queries for the smartphones and tablets */
+    /* Smartphones (portrait and landscape) ---------- */
+    @media screen and (min-width: 320px) and (max-width: 480px){
+        body{
+        	/*
+			background: #7ce7e1;
+			*/
+		}
+    }
+    /* Smartphones (portrait) ---------- */
+    @media screen and (max-width: 320px){
+        body{
+        	/*
+			background: #ffd280;
+			*/
+		}
+    }
+    /* Smartphones (landscape) ---------- */
+    @media screen and (min-width: 321px){
+        body{
+        	/*
+			background: #9ddfbb;
+			*/
+			/*
+			background: #0a0a0a;
+			*/
+		}
+    }
+    /* tablets, iPads (portrait and landscape) ---------- */
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        body{
+        	/*
+			background: #ffb497;
+			*/
+		}
+		.content {
+			max-width: 100%;
+			margin: 0 auto ;
+			padding: 0;
+		}
+    }
+    /* tablets, iPads (portrait) ---------- */
+    @media screen and (min-width: 768px){
+        body{
+        	/*
+			background: #f0e68c;
+			*/
+			background:#fff;
+		}
+    }
+    /* tablets, iPads (landscape) ---------- */
+    @media screen and (min-width: 1024px){
+        body{
+        	/*
+			background: #d6b3f4;
+			*/
+			background:white;
+		}
+    }
+    /* Desktops and laptops ---------- */
+    @media screen and (min-width: 1224px){
+        body{
+        	/*
+			background: #d8ff9d;
+			*/
+			background:white;
+		}
+    }
+    /* Large screens ---------- */
+    @media screen and (min-width: 1824px){
+        body{
+        	/*
+			background: #ffc0cb;
+			*/
+			background:white;
+		}
+    }

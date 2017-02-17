@@ -6,11 +6,12 @@ priority: 1.0
 ---
 
 <div class="content">
-<h1>This will be the Tutorial Site</h1>
-<p>This is the Archive Page with the Tutorials</p>
-<ul>
+<!--<h1>This will be the Tutorial Site</h1>
+<p>This is the Archive Page with the Tutorials</p>-->
+<ul class="sysadmincat-list-posts">
 	{% for tutorials in site.categories.tutorials limit:3 %}
-	<img src="{{site.baseurl}}/img/{{tutorials.image}}">
+
+	<img src="{{site.baseurl}}/img/{{tutorials.image}}" class="img-respon">
 	<li><a href="{{site.baseurl}}{{tutorials.url}}">{{tutorials.title}}</a></li>
 	<p>{{tutorials.meta}}</p>
 	{% endfor %}

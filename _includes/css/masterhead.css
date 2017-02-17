@@ -10,6 +10,12 @@ cssfile: masterhead
 	padding: 0 auto;*/
 	color:white;
 	height: 150px;
+	  
+}
+
+.masterhead > img {
+
+	width:100%;
 }
 .masterhead-sysadmincat {
 	background: url("../img/2.png");
@@ -17,5 +23,6 @@ cssfile: masterhead
 	/*margin: 0 auto;
 	padding: 0 auto;*/
 	color:white;
+
 }
 

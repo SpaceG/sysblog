@@ -5,16 +5,18 @@ permalink: pretty
 
 description: This will be the SysAdminBlog 
 
-
 # Site settings
 title: Lucas Gatsas
 #What is the name of the events or talks you would like to host?(Example Brownbags, Talks, Lighting Talks)
 event_label: Events
-
-
 
 #These settings might be able to go?
 author: Lucas Gatsas
 twitter_username: SysAdminBlog
 github_username:  spaceg
 company_name: SysAdminBlog
+
+
+# https:// over the Blog (use instead http:// >> https:// )
+url: http://sysadmincatblog.github.io
+enforce_ssl: sysadmincatblog.github.io

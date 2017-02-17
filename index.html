@@ -4,12 +4,15 @@ masterheadClass: masterhead-sysadmincat
 titleAfter: THIS IS CLEAR A TITLE
 meta: YouTube Tutorials, SysAdminCat, YouTube Tutorials
 priority: 1.0
+organiser: "Lucas Gatsas"
 ---
+
 <div class="content">
+<!--
 <h1>Hello World!</h1>
 <p>This will be our YouTube Tutorial SysAdminCat Blog!</p>
-
-	<ul>
+--> 
+	<ul class="sysadmincat-list-posts">
 		{% for sysadmin in site.categories.sysadmin limit: 3 %}
 		<li><a href="{{site.baseurl}}{{sysadmin.url}}">{{sysadmin.title}}</a></li>
 		<p>{{sysadmin.meta}}</p>

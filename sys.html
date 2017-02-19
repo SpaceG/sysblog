@@ -12,7 +12,7 @@ priority: 1.0
 	{% for tutorials in site.categories.tutorials limit:3 %}
 
 	<img src="{{site.baseurl}}/img/{{tutorials.image}}" class="img-respon">
-	<li><a href="{{site.baseurl}}{{tutorials.url}}">{{tutorials.title}}</a></li>
+	<li><h1><a href="{{site.baseurl}}{{tutorials.url}}">{{tutorials.title}}</a></h1></li>
 	<p>{{tutorials.meta}}</p>
 	{% endfor %}
 </ul>

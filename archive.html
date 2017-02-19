@@ -9,13 +9,13 @@ priority: 1.0
 <p>Links are below: </p>
 <ul>
 	{% for sysadmin in site.categories.sysadmin limit: 3 %}
-	<li><a href="{{site.baseurl}}{{sysadmin.url}}">{{sysadmin.title}}</a></li>
+	<li><h1><a href="{{site.baseurl}}{{sysadmin.url}}">{{sysadmin.title}}</a></h1></li>
 	<p>{{sysadmin.meta}}</p>
 	{% endfor %}
 </ul>
 <ul>
 	{% for tutorials in site.categories.tutorials limit:3 %}
-	<li><a href="{{site.baseurl}}{{sysadmin.url}}">{{tutorials.title}}</a></li>
+	<li><h1><a href="{{site.baseurl}}{{sysadmin.url}}">{{tutorials.title}}</a></h1></li>
 	<p>{{tutorials.meta}}</p>
 	{% endfor %}
 </ul>

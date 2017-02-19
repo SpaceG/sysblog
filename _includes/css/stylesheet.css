@@ -9,10 +9,15 @@ body, html {
 	padding: 0 auto;
 }
 a {
-	color:black;
+	    color: #333333;
+    text-decoration: none;
 }
 a:hover {
 	color: #666;
+}
+h1 {
+font-weight:800;
+
 }
 li, ul {
     list-style: none;
@@ -30,6 +35,7 @@ ul.sysadmincat-list-posts {
 	max-width: 900px;
 	margin: 0 auto ;
 	padding: 0;
+    padding-bottom: 40px;
 	
 }
 footer {
@@ -42,6 +48,12 @@ footer p {
 	text-align: center;
 	padding:20px;
 	margin:0;
+}
+/* footer credits */
+a#sys-credits {
+    color: #666;
+}a#sys-credits:hover {
+    color: #fff;
 }
 /* Video Container */
 .video-container {

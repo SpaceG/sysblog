@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 <style>
-	body,html {
-		margin: 0 auto;
-		background:white;
-		color:black;
+	body, html {
+       font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #272727;
+    text-align: center;
+	}
+	a {
+	    color: #969696;
+    text-decoration: none;
+	}
+	a:hover {
+	color: #666;
+	}
+	h1 {
+    font-weight: 800;
 	}
 	.container {
 		max-width: 800px;
 		margin:0 auto;
+		padding-top:20%;
 	}
-	.container a {
-		color:black;
-	}
-	footer {
-		background:black;
-		color:white;
-		height: 100px;
-
-	}
+	p#sys-404-error-credit {
+    color: #9c9c9c;
+    font-size: 13px;
+}
 </style>
     <!-- some other meta -->
         <!-- <meta http-equiv="refresh" content="1; url=http://127.0.0.1:4000"> --> 
@@ -28,13 +38,9 @@
 	<body>
 		<div class="container">
 			<a href="127.0.0.1:4000"> Back To The Blog </a> 
-			<p>404 - Sorry this page does not exist!</p>
+			<h1><p>404 error <br> Sorry this page does not exist...|</p></h1>
 		    <!-- the body for default.html -->
 		</div>
-    <footer>
-	    <div class="container">
-		<p>©.2017 by SysAdminCat</p>
-	</div>
-</footer>
+		<p id="sys-404-error-credit">©.2017 by SysAdminCat</p>
 </body>
 </html>

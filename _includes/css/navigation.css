@@ -43,6 +43,11 @@ color:#cccccc;
 padding-right: 5px;
 text-underline-position: none;
 text-decoration: none;
+}.nav-space-top li a:hover {
+color:#fff;
+padding-right: 5px;
+text-underline-position: none;
+text-decoration: none;
 }
 
 /* Navigation Two */

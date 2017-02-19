@@ -23,6 +23,7 @@ img.sysadmincat-logo {
  position: fixed;
  background:#fff;
  height:50px;
+ z-index: 9;
 }
 /*
 nav {

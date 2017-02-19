@@ -15,6 +15,10 @@ a {
 a:hover {
 	color: #666;
 }
+p {
+
+    text-align: justify;
+}
 h1 {
 font-weight:800;
 
@@ -36,8 +40,8 @@ ul.sysadmincat-list-posts {
 	margin: 0 auto ;
 	padding: 0;
     padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 	
 }
 footer {
@@ -156,8 +160,8 @@ li.next {
 			max-width: 100%;
 			margin: 0 auto ;
 			padding: 0;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
 		  } 
         }
     /* tablets, iPads (portrait) ---------- */

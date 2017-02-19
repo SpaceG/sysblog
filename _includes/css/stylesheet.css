@@ -36,6 +36,8 @@ ul.sysadmincat-list-posts {
 	margin: 0 auto ;
 	padding: 0;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 	
 }
 footer {
@@ -87,7 +89,10 @@ a#sys-credits {
     top: 30px;
     width: 85px;
 }
-.author-box .sysadmincat-author-title, .sysadmincat-description, .sysadmincat-desc-link {
+.author-box .sysadmincat-author-title, 
+.sysadmincat-description,
+.sysadmincat-desc-link {
+    font-size:16px;
     margin-left: 115px;
 }
 
@@ -131,6 +136,14 @@ li.next {
 			background: #0a0a0a;
 			*/
 		}
+
+        .author-box .sysadmincat-author-title, 
+        .sysadmincat-description, 
+        .sysadmincat-desc-link {
+            margin-left: 115px;
+            font-size: 12px;
+            font-weight: 600;
+            }  
     }
     /* tablets, iPads (portrait and landscape) ---------- */
     @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -143,8 +156,10 @@ li.next {
 			max-width: 100%;
 			margin: 0 auto ;
 			padding: 0;
-		}
-    }
+            padding-left: 10px;
+            padding-right: 10px;
+		  } 
+        }
     /* tablets, iPads (portrait) ---------- */
     @media screen and (min-width: 768px){
         body{

@@ -21,7 +21,7 @@ img.sysadmincat-logo {
 .sysadmincat-nav-one {
  width: 100%;
  position: fixed;
- background:#17171b;
+ background:#fff;
  height:50px;
 }
 /*
@@ -39,15 +39,17 @@ nav {
  display: -webkit-inline-box;
 }
 .nav-space-top li a {
-color:#cccccc;
-padding-right: 5px;
-text-underline-position: none;
-text-decoration: none;
+    color: #000000;
+    padding-right: 5px;
+    text-underline-position: none;
+    text-decoration: none;
+    font-weight: 800;
 }.nav-space-top li a:hover {
-color:#fff;
-padding-right: 5px;
-text-underline-position: none;
-text-decoration: none;
+    color: #666;
+    padding-right: 5px;
+    text-underline-position: none;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 /* Navigation Two */
